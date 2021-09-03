@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <a [routerLink]="['/']">home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a [routerLink]="['/Employee']">Employee</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a [routerLink]="['/Department']">Department</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8" style="min-height: 500px;">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8" style="min-height: 500px;">
+            Designed by :k.Sampath
+        </div>
+    </div>
+</div>
